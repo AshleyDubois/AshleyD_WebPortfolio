@@ -1,1 +1,88 @@
-{background-color: 060607;}
+
+ /* Futura PT Book
+
+ font-family: futura-pt, sans-serif;
+ 
+ font-weight: 400;
+ 
+ font-style: normal; */
+ 
+
+
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: #363636;
+  max-width: 100%;
+  height:auto;
+
+}
+
+
+
+.center {
+  font-family:"Futura PT Light", "Jost", sans-serif;
+  position: absolute;
+  top: 83%;
+  left:58%;
+  
+
+
+
+
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: auto;
+  text-shadow: 3px 2px 3px black;
+  margin: 38px;
+
+}
+
+
+
+
+@media only screen and (max-width: 480px) {
+  body {
+    background-image: url("Images/Mobile.png");
+  }
+  .container {
+    height: 800px;
+  }
+
+  .center {
+    position:absolute;
+    top: 48%;
+    left: 35%;
+  }
+
+  
+  a {
+    color: white;
+    text-decoration: none;
+    display:block;
+    padding: auto;
+    text-shadow: 3px 2px 3px black;
+    text-align: center;
+  
+  }
+  
+}
+
+@media only screen and (min-width: 481px) {
+  body {
+    background-image: url("Images/Web-Image.png");
+  }
+  .container {
+    height: 1300px;
+  }
+
+  .center {
+    position: absolute;
+  }
+}
+
